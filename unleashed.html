@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rich</title>
+	<link rel="stylesheet" type="text/css" href="unleashed.css" media="all">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="favicons/manifest.json">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#9f00a7">
+	<meta name="theme-color" content="#d42799">
+
+	<script src="cookie/src/js.cookie.js"></script>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="jqueryrotate.js"></script>
+	<script src="budynki.js"></script>
+	<script src="unleashed.js"></script>
+	<script type="text/javascript">
+		window.onload = function(){
+			start1();
+			start2();
+			staty();
+		}
+	</script>
+</head>
+<body>
+	<div id="calosc">
+
+		<div class="gornypasek">
+		<img src="./grf/baner2.png" alt="">
+		<!-- <button id="kasuj">kasuj</button> -->
+		<!-- IKONKI SOCIALI -->
+			<div class="social">
+				<a href="http://www.facebook.com/dominik.jastrzebski.1" target="_blank"><div class="growfb"></div></a>
+				<div class="growsnap"></div>
+				<a href="http://www.instagram.com/jaszczompeu/" target="_blank"><div class="growinsta"></div></a>
+				<div style="clear: left;"></div>
+			</div>
+		</div>
+		
+		<div class="wszystkieczesci">
+			<div class="czesci1">
+				<div id="staty">Dostajesz 1.0 na klik i 0.0 na sekundę!</div>
+				<div class="oknoportfela">
+					<img src="./grf/portfel.png" alt="" class="portfel">
+				</div>
+				<div id="ruletka">
+					<div id="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"><img src="./grf/arrow.png" alt=""  class="szczalka"></div>
+					<div class="srodekruletki">
+						<h1 class="wprowadzanie">Postaw!</h1>
+						<input type="text" id="postawione">
+						<div id="wylosowane">
+							<div id="pierwszy"></div>
+							<div id="drugi"></div>
+							<div id="trzeci"></div>
+							<div id="czwarty"></div>
+							<div id="piaty"></div>
+						</div>
+						<div id="graj">GRAJ</div>
+						<h1 class="wygrana"></h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="czesci2">
+				<div class="licznik"><div class="tekstlicznika">0.00</div></div>
+				<div class="acziki">
+					<div id="1" class="aczik"></div>
+					<div id="2" class="aczik"></div>
+					<div id="3" class="aczik"></div>
+					<div id="4" class="aczik"></div>
+					<div id="5" class="aczik"></div>
+					<div id="6" class="aczik"></div>
+					<div id="7" class="aczik"></div>
+					<div id="8" class="aczik"></div>
+				</div>
+				<div id="popup"></div>
+			</div>
+
+			<div class="czesci3">
+				<div id="budka" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="sklep" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="magazyn" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="biuro" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="knajpa" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="market" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="firma" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="parking" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="hotel" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="uniwersytet" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+				<div id="intel" class="buton"><div class="foto"></div><div class="tekstbutona"></div></div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+</body>
+</html>
